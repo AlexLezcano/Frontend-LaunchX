@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Los Lezcano</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="css-selector">
+    <header data-aos="fade-left">
+        <h1 id="text">Los Lezcano</h1>
+        <h3 id="text">Desde 2013</h3>
+    </header>
+    
+    <img src="./horno.jpg" alt="Logo de la empresa" id="responsive" data-aos="fade-down-right">
+
+     <!-- Bloque de Menu -->
+    <h2>Menú</h2>
+
+    <menu class="seccion" id="menu" data-aos="flip-left">      
+        
+            <h3>Pizzetas 45cms</h3>
+            <p>Refresco o cerveza a elección $100.</p>
+            <ul>
+                <li>Peperoni......................$500</li>
+                <li>Huevo y panceta...............$500</li>
+                <li>Napolitana....................$500</li>
+                <li>carne mechada.................$500</li>
+            </ul>
+        
+            <h3>Pizzetas 35cms</h3>
+            <p>Refresco o cerveza a elección $150.</p>
+            <ul>
+                <li>Peperoni......................$350</li>
+                <li>Huevo y panceta...............$350</li>
+                <li>Napolitana....................$350</li>
+                <li>carne mechada.................$350</li>
+            </ul>
+        
+            <h3>Especiales</h3>
+            <p>Todas incluyen refresco o cerveza a elección.</p>
+            <dl>
+                <dt>Barrio cerro.......................$600</dt>
+                <dd>-Muzzarella, Panceta, Jamon, Huevo frito </dd>
+                <dt>Lezcano...........................$.650</dt>
+                <dd>-Muzzarella, Cebolla, picles, Aceitunas, Lomito canadiense y Chicharrones</dd>
+            </dl>
+    </menu>
+
+     <!-- Bloque de Pedidos -->
+    <h2>Tu pedido</h2>
+    <section class="seccion" data-aos="flip-right">
+        <form action="">
+            <p>Cual es tu sucursal?</p>
+            <select>
+                <option value="cerro">Cerro</option>
+                <option value="Lapaloma">La Paloma</option>
+            </select>
+            <p>Cual es su pedido?</p>
+            <input type="checkbox" id="peperoni36" name="peperoni36" value="peperoni36">
+            <label for="peperoni36"> Peperoni 36cms</label>
+            <input type="number" id="peperoni36number" placeholder="Cantidad" min="0" style="width : 22%">
+            <br>
+            <input type="checkbox" id="peperoni45" name="peperoni45" value="peperoni45">
+            <label for="peperoni45"> Peperoni 45cms</label>
+            <input type="number" id="peperoni45number" placeholder="Cantidad" min="0" style="width : 22%">
+            <br>
+            <input type="checkbox" id="hyp36" name="hyp36" value="hyp36">
+            <label for="hyp36"> Huevo y panceta 36cms</label>
+            <input type="number" id="hyp36number" placeholder="Cantidad" min="0" style="width : 22%">
+           <br>
+           <input type="checkbox" id="hyp45" name="hyp45" value="hyp345">
+           <label for="hyp45"> Huevo y panceta 45cms</label>
+           <input type="number" id="hyp45number" placeholder="Cantidad" min="0" style="width : 22%">
+           <br>
+           <input type="checkbox" id="napolitana36" name="napolitana36" value="napolitana36">
+           <label for="napolitana36"> Napolitana 36cms</label>
+           <input type="number" id="napolitana36number" placeholder="Cantidad" min="0" style="width : 22%">
+           <br>
+           <input type="checkbox" id="napolitana45" name="napolitana45" value="napolitana45">
+           <label for="napolitana45"> Napolitana 45cms</label>
+           <input type="number" id="napolitana45number" placeholder="Cantidad" min="0" style="width : 22%">
+           <br>
+           <input type="checkbox" id="carmech36" name="carmech36" value="carmech36">
+           <label for="carmech36"> Carne mechada 36cms</label>
+           <input type="number" id="carmech36number" placeholder="Cantidad" min="0" style="width : 22%">
+           <br>
+           <input type="checkbox" id="carmech45" name="carmech45" value="carmech45">
+           <label for="carmech45"> Carne mechada 45cms</label>
+           <input type="number" id="carmech45number" placeholder="Cantidad" min="0" style="width : 22%">
+           <br>
+           <br>
+           <label for="nombre">Nombre</label>
+           <br>
+           <input type="text" id="nombre" name="nombre" placeholder="Cual es su nombre?">
+           <br>
+           <label for="contacto">Contacto</label>
+           <br>
+           <input type="text" id="contacto" name="contacto" placeholder="Donde podemos contactarlo?">
+           <br>
+           <label for="dircli">Direccion</label>
+           <br>
+           <input type="text" id="dircli" name="dircli" placeholder="A donde se lo llevamos?">
+           <br>
+           <label for="comentario">Comentarios</label>
+           <br>
+           <textarea name="comentario" rows="10" cols="40" placeholder="Escribe aquí tus comentarios"></textarea>
+            <br>
+           <button>Enviar</button>
+        </form>
+    </section>
+
+    <!-- Bloque de ubicacion -->
+    <h2>Ubicación</h2>
+    <section class="seccion" data-aos="flip-left">
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Cerro</td>
+                <td><a href="https://goo.gl/maps/PjGbNnj1HXs1ecrU9" target="_blank">Japón 1232</a></td>
+                <td>Martes a viernes 19hs a 01hs</td>
+            </tr>
+            <tr>
+                <td>La Paloma</td>
+                <td><a href="https://goo.gl/maps/7JEcKwonyTvH7Fpv5" target="_blank">Palmas 4455</a></td>
+                <td>Martes a viernes 19hs a 01hs</td>
+            </tr>
+        </table>
+    </section>
+    <div id="creditos">
+        <h3>Creditos:</h3>
+        <a href="https://www.gradient-animator.com" style="color: #ffffff" target="_blank">-CSS GRADIENT ANIMATOR</a>
+        <br>
+        <a href="https://michalsnik.github.io/aos/" style="color: #ffffff" target="_blank">-AOS</a>
+        <hr>
+        <h6>©2022 - Alex Lezcano</h6>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        duration: 500,
+        once: true
+        });
+      </script></body>
+</html>

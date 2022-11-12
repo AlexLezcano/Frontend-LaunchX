@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="divLogo">
+    <img id="logo" src="./logo.png" alt="">
+    </div>
+    <h2>Pasteles</h2>
+    <section class="flex_box">
+        <div>
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/413/750/products/20200111_133616-a16a24fbdd4be9490016351936631329-480-0.jpg
+            " alt="Pastel de cumpleaños decorado">
+            <h4>Pastel de cumpleaños decorado</h3>
+            <h3>u$s50</h3>
+        </div>
+        <div>
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/413/750/products/20201001_123841-5c10e006d0def4e75c16351931668121-480-0.jpg" alt="Pastel con granas">
+            <h4>Pastel con granas</h4>
+            <h3>u$s55</h3>
+        </div>
+
+        <div>
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/413/750/products/20180731_1134311-b2bbffb442411a79da15818622543447-480-0.jpg" alt="Brownie clásico">
+            <h4>Brownie clásico</h4>
+            <h3>u$S60</h3>
+        </div>
+
+        <div>
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/413/750/products/20220618_0942271-0090567ace90a1f77b16555776958160-480-0.jpg" alt="Tiranisú">
+            <h4>Tiranisú</h4>
+            <h3>u$s45</h3>
+        </div>
+        
+        <div>
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/413/750/products/20180413_0936571-5f92121420505294c415308887200759-480-0.jpg" alt="Lemon pie decorado">
+            <h4>Lemon pie decorado</h4>
+            <h3>u$S39</h3>
+        </div>    
+    </section>
+
+    <h2>Sabores</h2>
+    <section class="flex_box">
+        <div>
+            <img src="https://content-cocina.lecturas.com/medio/2021/04/14/haz-los-rosetones_0b78de8e_556x768.jpg" alt="Merengue color a eleccion">
+            <h4>Merengue color a eleccion</h4>
+            <h3>u$s5</h3>
+        </div>
+
+        <div>
+            <img src="https://cdn.greatlifepublishing.net/wp-content/uploads/sites/2/2017/08/22103857/iStock-145998413.jpg"alt="Chocolate">
+            <h4>Chocolate</h4>
+            <h3>u$s5</h3>
+        </div>
+
+        <div>
+            <img src="https://sugargeekshow.com/wp-content/uploads/2018/02/marshmallow-fondant-recipe.jpg" alt="Fondant">
+            <h4>Fondant color a elección</h4>
+            <h3>u$s5</h3>
+        </div>
+
+        
+    </section>
+
+    <h2>Toppings</h2>
+    <section class="flex_box">
+        <div>
+            <img src="http://yolas.com.ar/assets/img/toppings/topping-08.jpg" alt="Merenguitos">
+            <h4>Merenguitos</h4>
+            <h3>u$s15</h3>
+        </div>
+
+        <div>
+            <img src="http://yolas.com.ar/assets/img/toppings/topping-07.jpg" alt="Bolitas de colores">
+            <h4>Bolitas de colores</h4>
+            <h3>u$s15</h3>
+        </div>
+
+        <div>
+            <img src="http://yolas.com.ar/assets/img/toppings/topping-04.jpg" alt="Rocklets">
+            <h4>Rocklets</h4>
+            <h3>u$s15</h3>
+        </div>
+            
+        <div>
+            <img src="http://yolas.com.ar/assets/img/toppings/topping-01.jpg" alt="Corazones de azúcar">
+            <h4>Corazones de azúcar</h4>
+            <h3>u$s15</h3>
+        </div>
+    
+        <div>
+            <img src="http://yolas.com.ar/assets/img/toppings/topping-03.jpg" alt="Chocolate blanco rallado">
+            <h4>Chocolate blanco rallado</h4>
+            <h3>u$s15</h3>
+        </div>
+    
+        <div>
+            <img src="http://yolas.com.ar/assets/img/toppings/topping-05.jpg" alt="Crocante de maní">
+            <h4>Crocante de maní</h4>
+            <h3>u$s15</h3>
+        </div>
+
+    </section>
+    
+    <h2>Su pedido</h2>
+    <h5>(en caso de querer más de un pastel, realice tantos pedidos como pasteles quiera)</h5>
+    <div id="form1">
+        <div id="form">
+            <form action="">
+                <p>Elija su pastel?</p>
+                <select>
+                    <option value="cumple">Pastel de cumpleaños decorado</option>
+                    <option value="granas">Pastel con granas</option>
+                    <option value="brownie">Brownie clásico</option>
+                    <option value="tiramisu">Tiramisú</option>
+                    <option value="pie">Lemon pie decorado</option>
+                    
+                </select>
+                <p>Que sabores prefiere?</p>
+                <input type="checkbox" id="Merengue" name="Merengue" value="Merengue">
+                <label for="Merengue">Merengue color a eleccion</label>
+                <br>
+                <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                <label for="chocolate">Chocolate</label>
+                <br>
+                <input type="checkbox" id="fondant" name="fondant" value="fondant">
+                <label for="fondant">Fondant color a elección</label>
+                <br>
+                <br>
+                <p>Elija sus toppings?</p>
+                <input type="checkbox" id="merenguitos" name="merenguitos" value="merenguitos">
+                <label for="merenguitos">Merenguitos</label>
+                <br>
+                <input type="checkbox" id="bolitas" name="bolitas" value="bolitas">
+                <label for="bolitas">Bolitas de colores</label>
+                <br>
+                <input type="checkbox" id="rocklets" name="rocklets" value="rocklets">
+                <label for="rocklets">Rocklets</label>
+                <br>
+                <input type="checkbox" id="corazones" name="corazones" value="corazones">
+                <label for="corazones">Corazones de azúcar</label>
+                <br>
+                <input type="checkbox" id="chocoBlanco" name="chocoBlanco" value="chocoBlanco">
+                <label for="chocoBlanco">Chocolate blanco rallado</label>
+                <br>
+                <input type="checkbox" id="crocante" name="crocante" value="crocante">
+                <label for="crocante">Crocante de maní</label>
+                <br>
+                <br>
+
+
+               <br>
+               <label for="nombre">Nombre</label>
+               <br>
+               <input type="text" id="nombre" name="nombre" placeholder="Cual es su nombre?">
+               <br>
+               <label for="nombre">Telefono</label>
+               <br>
+               <input type="text" id="telefono" name="telefono" placeholder="a que número podemos contactarlo??">
+               <br>
+               <label for="nombre">Correo electronico</label>
+               <br>
+               <input type="text" id="correo" name="correo" placeholder="cual es su correo electronico?">
+               <br>
+               <label for="dircli">Direccion</label>
+               <br>
+               <input type="text" id="dircli" name="dircli" placeholder="A donde se lo llevamos?">
+               <br>
+               <label for="comentario">Describa su pastel</label>
+               <br>
+               <textarea name="comentario" rows="10" cols="40" placeholder="Escribe aquí la mayor cantidad de idicaciones/sugerencias, gracias."></textarea>
+                <br>
+               <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2>Ubicación</h2>
+    <div id="form1">
+    <section id="form">
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Cerro</td>
+                <td><a href="https://goo.gl/maps/PjGbNnj1HXs1ecrU9" target="_blank">Japón 1232</a></td>
+                <td>Martes a viernes 19hs a 01hs</td>
+            </tr>
+            <tr>
+                <td>La Paloma</td>
+                <td><a href="https://goo.gl/maps/7JEcKwonyTvH7Fpv5" target="_blank">Palmas 4455</a></td>
+                <td>Martes a viernes 19hs a 01hs</td>
+            </tr>
+        </table>
+    </section>
+    </div>
+    <footer>
+        <p>©2022 by Alex Lezcano</p>
+    </footer>
+</body>
+</html>

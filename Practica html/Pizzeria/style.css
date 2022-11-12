@@ -1,0 +1,92 @@
+body{
+    font-size:120%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+    margin: 0ch;
+
+
+
+}
+
+.css-selector {
+    background: linear-gradient(295deg, #ca5e05, #1c0901, #090400, #050200);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 12s ease infinite;
+    -moz-animation: AnimationName 12s ease infinite;
+    animation: AnimationName 12s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:34% 0%}
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:34% 0%}
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:34% 0%}
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+}
+.seccion{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    background-color: #0000009c;
+    padding:20px;
+    margin: 10px;
+    margin-top: 10px;
+    width: 80%;
+    max-width: 800px;
+}
+
+#responsive {
+    margin:10vh;
+    margin-top: 5vh;
+    padding: 10px;
+    height: auto;
+    width: 90%;
+
+    max-height: 1000px;
+    max-width: 600px;
+    min-width: 100px;
+  }
+#text{
+    text-align: center;
+}
+#creditos{
+    background-color: #0000009c;
+    font-size:50%;
+    width: 100%;
+    height: 100%;
+    font-size:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(255,255, 255);
+    justify-content: left;
+    align-items: left;
+    margin-left: 0%;
+    flex-direction: column;
+    justify-content: left;
+    align-content:initial;
+    padding:2px;
+    width: 100%;
+}
+h6{
+    text-align: center;
+}
+header{
+    margin-top: 10vh;
+}
