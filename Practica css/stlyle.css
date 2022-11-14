@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+header{
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px); 
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 185px;
+    padding: 0px 165px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1
+
+}
+
+header h2{
+    font-size: 2.3em;
+    color: #2747c5;
+    font-weight: 700;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0px 30px;
+    color: #6d7b93;
+    text-decoration: none;
+}
+
+#hoax-button a{
+    color: white;
+    background-color: #3858d6;
+    padding: 20px 40px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+
+
+body{
+    font-size: 16px;
+    background-color: #FFF;
+    color: #6d7b93; 
+    margin: 0%;
+    font-family: 'Rubik', sans-serif;
+    color: #1f3e72;
+}
+#landing{
+    display: flex;
+
+    width: 100%;
+}
+.ladoIzquierdo{
+    
+    padding-left: 160px;
+    padding-top: 250px;
+    width: 50%;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+
+}
+.ladoIzquierdo h1{
+    font-size: 5em;
+}
+.ladoIzquierdo p{
+    font-size: 1.5em;
+    opacity: .7;
+}
+.ladoIzquierdo h3{
+    font-size: 1.5em;
+}
+
+
+.ladoDerecho{
+    overflow: hidden;
+    background: linear-gradient(70deg, #1685e2, #2a70de);
+    width: 50%;
+}
+.ladoDerecho img{
+    padding-top: 70px;
+    padding-bottom: 0%;
+    height: 130vh;
+
+}
+
+/* Segunda separacion con colores invertidos */
+.ladoDerecho1{
+    
+    padding-left: 0px;
+    padding-top: 150px;
+    width: 50%;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+
+}
+.ladoDerecho1 h1{
+    font-size: 3em;
+}
+.ladoDerecho1 p{
+    font-size: 1.5em;
+    opacity: .7;
+}
+
+
+.ladoIzquierdo1{
+    background: linear-gradient(70deg, #1685e2, #2a70de) 50%;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.ladoIzquierdo2{
+    box-sizing: border-box;
+    overflow: hidden;
+    background: white;
+    width: 50%;
+}
+.ladoIzquierdo1 img{
+    margin-top: -50%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 120%;
+    position: relative;
+    height: 110vh;
+}
+.menuFlotante{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(253, 254, 255, 0.9);
+    width: 70%;
+    height: 20vh;
+    padding: 0%;
+    margin-top: 60%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    border-radius: 10px;
+    border: 2px solid 0#ffffff;
+    box-shadow: 0px 20px 20px rgba(153, 153, 153, 0.5);
+    position: absolute;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+}
+.submit{
+   margin-top: 5%;
+   margin-left: 5%;
+}
+.submit a{
+     text-decoration: none;
+        padding: 40px 40px;
+        border-radius: 10px;
+        color: #FFF;
+        background-color: #3555d3;
+}
+#celdas{
+  color: #2a4b7b;
+}
+
+#imgVaccines img{
+    object-fit: contain;
+    opacity: .4;
+    margin-top: 40px;
+    width: 100%;
+
+}
+    
+#imgVaccines{
+    height: 15vh;
+    width: 60vw;
+    
+    padding: 100px 0px 0px 150px;
+    display: flex;
+    flex-direction: row;
+}
+#porqueVacunarse{
+	display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px;
+}
+#porqueVacunarse h2{
+     box-sizing: content-box;
+     align-items: left;
+     margin: 0;
+     padding: 10px;
+     font-size: 3em;
+}
+
+#porqueVacunarse p{
+    margin: 0;
+    padding: 40px;
+    font-size: 1em;
+    color: #8B97A9;
+}
+
+.contTarjetas{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    color: #3A5684;
+}
+.tarjetas h3{
+    font-size: 1.5em;
+    
+}
+.tarjetas h4{
+    font-size: 1em;
+    opacity: .6;
+    
+}
+
+.tarjetas{
+    box-shadow: 0px 0px 0px 1px rgba(153, 153, 153, 0.5);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 3vh;
+    width: 15vw;
+    height: 40vh;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+
+
+
+
+
+
+.contTarjetas1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0px;
+    padding: 20px;
+    width: auto;
+    color: #3A5684;
+}
+.tarjetas1 h3{
+    font-size: 1em;
+   
+    
+}
+.tarjetas1 h4{
+    font-size: 1em;
+    opacity: .6;
+    
+}
+
+.tarjetas1{
+    box-shadow: 0px 0px 0px 1px rgba(153, 153, 153, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3vh;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+
+
+
+#prefooter{
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f5ff;
+}
+
+.vacination-prefooter h2{
+    color: #3353d1;
+    font-size: 2.3rem;
+}
+
+.vacination-prefooter p{
+    font-size: 1.4rem;
+}
+
+.listas-prefooter{
+    display: flex;
+}
+
+.listas-prefooter h3{
+    font-size: 2.3rem;
+    color: #1f3e72;
+}
+
+.listas-prefooter li{
+    font-size: 1.4rem;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+footer{
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f5ff;
+}
+
+.copyright{
+    font-size: 1.4rem;
+}
+
+.terms{
+    display: flex;
+}
+
+.terms p{
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+
